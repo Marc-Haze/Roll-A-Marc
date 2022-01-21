@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     void SetCountText(){
         countText.text = "Puntos: " + count.ToString();
-        if(count >= 5){
+        if(count >= 10){
             endMessage.SetActive(true);
         }
     }
